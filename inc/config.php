@@ -1,10 +1,10 @@
 <?php 
 //contraseña
-$passs="";
+$passs="Palencia1";
 //nombre de base de datos 
 $bd="pagos";
 //nombre de usuario 
-$user="root";
+$user="mysqldbuser@inventariorc-mysqldbserver";
 //nombre de la empresa a la que le daras el servicio
 $empresa="Developers";
 
@@ -22,7 +22,7 @@ $config = array(
 	"emailadmin"=>"",
 	"emailenvios"=>"",
 	"nombreenvios"=>"SysPro",
-	"servidor"=>"localhost",
+	"servidor"=>"inventariorc-mysqldbserver.mysql.database.azure.com",
 	"basedatos"=>"$bd",
 	"usuario"=>"$user",
 	"pass"=>"$passs",
@@ -33,7 +33,7 @@ $config = array(
 	); ?>
 
 <?php
-	$dbhost="localhost";
+	$dbhost="inventariorc-mysqldbserver.mysql.database.azure.com";
 	$dbname="$bd";
 	$dbuser="$user";
 	$dbpass="$passs";
